@@ -4,7 +4,7 @@ import multiprocess as mp
 
 
 def _train(X_train, y_train, X_test, y_test, kernel):
-    clf = SVC(kernel=kernel) #runs the one-versus-rest approach in multi-class classification
+    clf = SVC(kernel=kernel, decision_function_shape='ovo') #runs the one-versus-one approach in multi-class classification
     clf.fit(X_train, y_train)
 
     #update trainscore
