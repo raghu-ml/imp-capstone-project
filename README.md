@@ -19,6 +19,9 @@ The specific model is trained on the Sloan Stellar Classfication data from the S
 # Model use
 Classification of celestial objects based on sprectral data.
 
+# Model user
+Suitable for those looking for a fast way to classify celestial object based on spectral data from telescopes.
+
 # The model
 The model is a simple decision tree with an observed accuracy of 97% on the test data set. It is very important to note that the model has been trained on the well organized and cleaned Sloan dataset. Thus the model will only perform well on simiarly cleaned inputs. It may not perform well on noisy data. Therefore it is important that the model only be used in settings where such clean data is available. 
 
@@ -26,3 +29,4 @@ The model choice has been made after testing various machine learning models. Th
 
 The model is also fast to evaluate and is suitable for classification very large data sets.
 
+For full technical details on the training and analysis of the model, pelase refer to the ``model_card``.
