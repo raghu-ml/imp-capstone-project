@@ -1,5 +1,5 @@
-# imp-capstone-project
-Imperial 2024 AI-ML professional certificate - AI/ML capstone project
+# Capstone Projects
+This is the submission for the Imperial 2024 AI-ML professional certificate - AI/ML capstone project.
 
 # Star classification
 The problem we are tackling is classifying starts based on spectract characteristics. 
